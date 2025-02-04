@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "start": "deno run -A --watch=static/,routes/ --unstable dev.ts"
+    "start": "deno run -A --watch=static/,routes/ --unstable-kv --unstable-broadcast-channel dev.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
